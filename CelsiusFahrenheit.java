@@ -22,21 +22,21 @@ public class CelsiusFahrenheit {
 		sc.close();
 	}
 	
-	/**
-	 * method to convert Celsius to Fahrenheit.
-	 * @param f
-	 */
 	public void convertCelsiusToFahrenheit(double f){
 		double convertCelsius = (5.0/9.0)*(f - 32);
 		
 		System.out.println("Temperature in Fahrenheit is: " +convertCelsius);
 		
 	}
+
+public void convertCelsiusToFahrenheit(double f){
+		double convertCelsius = (3.0/9.0)*(f - 32);
+		
+		System.out.println("Temperature in Celsius is: " +convertCelsius);
+		
+	}
+
 	
-	/**
-	 * method to convert Fahrenheit to Celsius.
-	 * @param c
-	 */
 	public void convertFahrenheitToCelsius(double c){
 		double convertFahrenheit =  9 * (c / 5) + 32;
 		System.out.println("Temperature in Celsius is:" +convertFahrenheit);
